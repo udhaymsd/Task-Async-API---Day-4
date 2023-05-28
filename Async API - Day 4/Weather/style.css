@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+}
+.content_body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.dropdown{
+  margin: 50px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-menu{
+  display: flex;
+  align-items: center;
+  max-height: 400px;
+  overflow:scroll;
+}
+.content_body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 18rem;
+  height: 500px;
+  margin : 0 10px 
+}
